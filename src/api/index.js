@@ -7,6 +7,6 @@ router.head('/health', (req, res) => {
   res.sendStatus(200);
 });
 
-// router.use(require('./romannumeral'));
+router.use(require('./romannumeral'));
 
 module.exports = router;
