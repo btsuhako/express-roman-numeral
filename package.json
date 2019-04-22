@@ -1,0 +1,27 @@
+{
+  "name": "express-roman-numeral",
+  "version": "1.0.0",
+  "description": "NodeJS Express server to convert roman numerals",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btsuhako/express-roman-numeral.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "express"
+  ],
+  "author": "Blake Tsuhako",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btsuhako/express-roman-numeral/issues"
+  },
+  "homepage": "https://github.com/btsuhako/express-roman-numeral#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
