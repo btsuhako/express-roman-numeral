@@ -1,13 +1,14 @@
 const express = require('express');
 
 const app = express();
+const config = require('./config');
 
 app.use(require('./api'));
 
-app.listen(3000, err => {
+app.listen(config.PORT, err => {
   if (err) {
     console.error(err);
     return;
   }
-  console.log(`express-roman-numeral server is ready on 3000`); // TODO use logger with JSON formatting
+  console.log(`express-roman-numeral server is ready on ${config.PORT}`); // TODO use logger with JSON formatting
 });
