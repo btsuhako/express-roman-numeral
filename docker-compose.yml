@@ -1,0 +1,12 @@
+version: '3.2'
+
+services:
+  express-roman-numeral:
+    build:
+      context: .
+    ports:
+      - '3000:3000'
+    image: btsuhako/express-roman-numeral:latest
+    environment:
+      - PORT=3000
+      - NODE_ENV
