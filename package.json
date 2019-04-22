@@ -4,7 +4,8 @@
   "description": "NodeJS Express server to convert roman numerals",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/btsuhako/express-roman-numeral#readme",
   "devDependencies": {
     "jest": "^24.7.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
